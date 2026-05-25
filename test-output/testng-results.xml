@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-24T23:18:23 IST" name="Default suite" finished-at="2026-05-24T23:19:20 IST" duration-ms="56624">
+    <groups>
+    </groups>
+    <test started-at="2026-05-24T23:18:23 IST" name="Default test" finished-at="2026-05-24T23:19:20 IST" duration-ms="56624">
+      <class name="com.webautomation.tests.iFramesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webautomation.tests.iFramesTest@2925bf5b]" started-at="2026-05-24T23:18:23 IST" name="setUp" finished-at="2026-05-24T23:18:36 IST" duration-ms="13405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Launchurl()[pri:0, instance:com.webautomation.tests.iFramesTest@2925bf5b]" started-at="2026-05-24T23:18:37 IST" name="Launchurl" finished-at="2026-05-24T23:19:17 IST" duration-ms="40630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchurl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webautomation.tests.iFramesTest@2925bf5b]" started-at="2026-05-24T23:19:17 IST" name="tearDown" finished-at="2026-05-24T23:19:20 IST" duration-ms="2428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webautomation.tests.iFramesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
