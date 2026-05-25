@@ -36,6 +36,8 @@ public class Frames  {
 	private @FindBy(id = "frm2")
 	WebElement frame2;
 	
+	private @FindBy(id = "frm3")
+	WebElement frame3;
 	
 	private @FindBy(id = "firstName")
 	WebElement frame2Fname;
@@ -75,6 +77,11 @@ public class Frames  {
 		reusableUtil.FrameSwitch(frame2);
 	}
 	
+	public void framehandling3()
+	{
+		reusableUtil.FrameSwitch(frame3);
+	}
+	
 	public void DefaultFrame()
 	{
 		reusableUtil.backToDefault();
@@ -95,6 +102,13 @@ public class Frames  {
 		wait.until(ExpectedConditions.visibilityOf(frame2Fname));
 		frame2Fname.sendKeys(input);
 	}
+	
+	
+	public void ParentFrame()
+	{
+		reusableUtil.backToParent();
+	}
+	
 }
 
 

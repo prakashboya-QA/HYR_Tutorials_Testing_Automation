@@ -57,6 +57,11 @@ public class ReusableUtil {
     	driver.switchTo().defaultContent();
     }
     
+    public void backToParent()
+    {
+    	driver.switchTo().parentFrame();
+    }
+    
     public void JavaScriptExe()
     {
     	
